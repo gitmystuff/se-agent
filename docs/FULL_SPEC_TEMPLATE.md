@@ -1,6 +1,6 @@
 # Full Spec: <App name>
 
-**Team:** ______  **Date:** ______  **Committer:** ______
+**Team:** ____Code Eagles__  **Date:** ___11/19/26___  **Committer:** ______
 
 > How to use this file: copy it to `docs/FULL_SPEC.md` in your fork. Fill every section. There is **no length limit** here (the Run Brief has one).
 > Put a name next to each section: that person owns it and can explain it without the AI.
@@ -8,49 +8,64 @@
 > In every section, finish with one line: **AI contribution:** what an AI suggested, and what you changed or rejected (write "none" if none).
 > Delete these quote lines when you are done.
 
-**Roles:** Product Owner ______ | Process lead ______ | Architect ______ | Quality lead ______ | Prompt engineer ______
+**Roles:** Product Owner code eagles______ | Process lead rithika pujari______ | Architect tobias______ | Quality lead chantelle______ | Prompt engineer _Kruthika_____
 
 ---
 
 ## 0. The idea (Chapter 1)
-- The single main problem, and for whom (one sentence):
-- Who is harmed if this app fails, is wrong, or leaks data?
-- Anything the app must never do (privacy, safety, legal):
+- The single main problem, and for whom (one sentence):lost items and return process
+- Who is harmed if this app fails, is wrong, or leaks data? The shareholders 
+- Anything the app must never do (privacy, safety, legal):track the location of students.
 
-## 1. Process and plan (Chapters 2 and 3)  Owner: ______
-- Process model we chose (plan-driven, incremental, or agile) and **why it fits this app** (2 sentences):
-- Practices we actually use: stand-up / sprints / board / retrospective / code review / tests on every change
-- **Definition of Done** (checklist, 4 or more items):
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
-- Sprint plan (what is working at the end of each sprint):
+## 1. Process and plan (Chapters 2 and 3)  Owner: __code eagles____
+- Process model we chose ( agile) and **why it fits this app** (2 sentences):This allows our team to develop the application in smaller increments, Since the project has multiple features, an iterative approach helps us identify problems early and improve the application throughout development.
+- Practices we actually use: s sprints 
+- **Definition of Done** (checklist, 4 or more items):•	[ ] It meets the agreed acceptance criteria.
+•	[ ] The code follows the project's coding standards.
+•	[ ] Appropriate tests are written and pass.
 
+  
+- Sprint plan 
+Development of core item reporting 
 | Sprint | Working software at the end | se-agent run? |
 |---|---|---|
-| 1 | | |
-| 2 | | |
+| 1 | | |Suggest a simple Flask architecture for a lost and found application using SQLite.
+| 2 | | |Suggest project features and implementation approaches for a campus lost and found application
 | 3 | | |
+Development of core item reporting and search functionality has started.
 
-- Biggest schedule risk and what we will do about it:
-- AI contribution:
 
-## 2. Requirements (Chapter 4)  Owner (Product Owner): ______
+- Biggest schedule risk and what we will do about it: leaking data
+- AI contribution:creating prompts, helping with code structure.
+
+## 2. Requirements (Chapter 4)  Owner (Product Owner): __university of North texas____
 **Stakeholders and what each wants:**
 
-| Stakeholder | Wants |
+| Stakeholder | Wants |•
+Students: Easily report lost belongings and find items reported by others.
+•	Campus staff: Manage lost-and-found records efficiently.
+•	Administrators: Review claims, prevent fraudulent claims, and update item statuses.
+•	University: Provide a reliable and user-friendly campus service.
+•	Development team: Build a maintainable, testable, and functional application.
+
 |---|---|
 | | |
 
 **User stories** (as a ___, I want ___, so that ___), each with acceptance criteria:
-1.
-2.
-3.
-4.
-5.
+.•	Report a lost item.
+•	Report a found item.
+•	Search for items.
+•	Submit an item claim.
+•	Review claims.
+•	Approve or reject claims.
+•	Mark an item as returned.
 
-**Requirements table**
+
+
+**Requirements table*
+report and search
+found item claim
+mark return
 
 | ID | Type (F = functional, NF = non-functional) | Requirement (one testable sentence) | Priority (Must/Should) | Acceptance test (input -> expected result) |
 |---|---|---|---|---|
@@ -63,7 +78,7 @@
 | R7 | NF (cost) | | | |
 
 **Out of scope** (so nobody builds it by accident):
--
+-student location
 
 **Requirements we removed as unnecessary, and why:**
 -
